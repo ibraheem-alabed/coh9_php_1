@@ -13,7 +13,7 @@
     </header>
     <main>
         <section>
-            <form action="">
+            <form action="" method="post">
                 <div>
                 <label for="name">Student name</label>
                 <input id="name" type="text" required placeholder="inter your name" autofocus name="uname">
@@ -27,11 +27,11 @@
                </div>
 
                <div>
-                <input id="male" type="radio" name="ma" value="ma" checked />   
+                <input id="male" type="radio" name="na" value="male" checked />   
                <label for="male" >Male</label>
               </div>
               <div>
-                <input id="female" type="radio" name="fe" value="fe" />   
+                <input id="female" type="radio" name="na" value="female" />   
                <label for="female" >Female</label>
               </div>
               <div>
@@ -44,12 +44,12 @@
                </div>
                <div>
                 <label for="ad">where are you live </label>
-                <select name="add" id="ad" >
+                <select name="city" id="ad" >
                     
                     <optgroup label="add">
-                    <option value="1"> amman </option>
-                    <option value="2"> irbid </option>
-                    <option value="3"> kark </option>
+                    <option value="amman"> amman </option>
+                    <option value="irbid"> irbid </option>
+                    <option value="kark"> kark </option>
                     </optgroup>
                      </select>
                </div>
@@ -60,6 +60,10 @@
                <div>
                 <label >inter your cv</label>
                 <input type="file" />
+               </div>
+               <div>
+                <label for="">submit</label>
+                <input type="submit">
                </div>
             </form>
         </section>
