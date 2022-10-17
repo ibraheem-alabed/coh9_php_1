@@ -17,6 +17,7 @@ body{
 }
 .my_img{
     order: 3;
+    border-radius: 50%;
 }
 .myname{
     font-size: 200%;
@@ -26,12 +27,6 @@ body{
 }
 #hr{
     border: 5px black solid;
-}
-.civil{
-    margin: 0;
-    position: relative;
-    top: 90px;
-    left: -700px;
 }
 .nav{
     display: flex;
@@ -69,12 +64,53 @@ hr{
 .aside h2 {
     color: black;
 }
-h2{
+.info h2{
     color: #185673;
+    border: 1rem outset;
 }
 p:hover{
     color: #2095d8;
 }
 li:hover{
     color: #2c3235;
+}
+footer{
+    font-size: 70%;
+}
+
+@media only screen and (max-width:1350px){
+    .containar{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items :center;
+        border: 6px black solid;
+        border-radius: 5%;
+        width: 115%;
+    }
+    .nav{
+        flex-direction: column;
+        justify-content: space-between;
+        list-style: none;
+    }
+    .nav li{
+        margin-bottom: 3rem;
+    }
+    .main_cont{
+        display: block;
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+    .aside{
+        order: 2;
+        background-color: #185673;
+        background-size: contain;
+        width: 100%;
+    }
+    .info h2{
+        color: #185673;
+        border: 1rem outset;
+        text-align: center;
+    }
 }
