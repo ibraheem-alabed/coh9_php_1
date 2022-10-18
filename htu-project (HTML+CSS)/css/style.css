@@ -71,3 +71,61 @@ nav{
     padding: 15px;
     border-radius: 25px;
 }
+/* ------------------------------ */
+#htu-courses{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.137);
+}
+#htu-courses a {
+    width: 25%;
+    height: 15rem;
+    font-size: 300%;
+    margin-top: 10rem;
+    margin-left: 6rem;
+    margin-bottom: 10rem;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.5;
+    border-radius: 30px;
+}
+#htu-courses a:hover{
+    opacity: 1;
+}
+#php{
+    background-image: url("../img/php-logo.png");
+    background-size: cover;
+}
+#html{
+    background-image: url("../img/html.jpg");
+    background-size: cover;
+}
+#css{
+    background-image: url("../img/css.jfif");
+}
+#java{
+    background-image: url("../img/java_logo_640.jpg");
+    background-size: cover;
+}
+#js{
+    background-image: url("../img/java-script.jpg");
+    background-size: cover;
+}
+#paython{
+    background-image: url("../img/paython.jfif");
+    background-size: cover;
+}
+#oop{
+    background-image: url("../img/oop.jpg");
+    background-size: cover;
+}
+#sql{
+    background-image: url("../img/sql.jpg");
+    background-size: cover;
+}
+#mysql{
+    background-image: url("../img/mysql.png");
+    background-size: cover;
+}
