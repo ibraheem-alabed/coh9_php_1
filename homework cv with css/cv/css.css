@@ -6,6 +6,7 @@ body{
     background-image: url("/img/55.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Lora', serif;
 }
 .containar{
     display: flex;
