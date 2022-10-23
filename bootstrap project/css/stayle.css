@@ -1,0 +1,25 @@
+body{
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* ------------------index--------------- */
+footer{
+    background-color: rgb(218, 209, 198);
+    font-size: 250%;
+}
+nav{
+    height: 6rem;
+    font-size: 200%;
+}
+.navbar-brand{
+    font-size: 150%;
+}
+/* -------------countacUs--------------------- */
+#header-cuntus{
+    background-color: rgb(65, 97, 97);
+
+}
+#header-condiv{
+    background-color: rgb(172, 133, 133);
+    height: 40rem;
+}
