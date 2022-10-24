@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark  ">
+        <nav class="navbar navbar-dark bg-dark ">
             <div class="container-fluid">
               <a class="navbar-brand" href="./index.html">ibraheem library</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -60,17 +60,28 @@
               </div>
             </div>
           </nav>
-          <div class="container text-center mt-5 border border-danger">
-            <h1>Bestsellers books <i class="fa-solid fa-book"></i></h1>
+          <div id="header-h1" class="container">
+          <div class="  pt-5 text-center mt-5">
+            <h1>ibraheem library <i class="fa-solid fa-book"></i></h1>
           </div>
-          <div class="container-fluid w-25 mt-5 border border-dark">
-            <label for="customRange1" class="form-label">price range</label>
-            <input type="range" class="form-range" id="customRange1">
+          <div class="container text-center mt-5 fs-4">
+            <p>Welcome to the largest library in the world</p>
           </div>
+        </div>
     </header>
 
     <!-- -------------------------------------------------------------------------------------------- -->
-        <main class="mt-5">
+        <main>
+            <section id="bookrange">
+                <div class="  pt-5 text-center mt-5">
+                    <h1>Bestsellers books <i class="fa-solid fa-book"></i></h1>
+                  </div>
+                <div class="container-fluid w-50 mt-5 mb-5 border border-dark">
+                <label for="customRange1" class="form-label fs-2">price range</label>
+                <input type="range" class="form-range" id="customRange1">
+              </div>
+            </section>
+              <section>
             <div class="card";">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
@@ -206,6 +217,7 @@
                       </div>
                     </div>
                   </div>
+                </section>
           </main>
 
           <footer>
