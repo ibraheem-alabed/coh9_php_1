@@ -10,74 +10,52 @@
     <!-- --------------fontAowsm------------ -->
     <link rel="stylesheet" href="./css/bootstrap+fontawesome/css/all.min.css">
     <!-- ----------stayle sheet-------------- -->
-    <!-- <link rel="stylesheet" href="./css/stayle.css"> -->
+    <link rel="stylesheet" href="./css/stayle.css">
     <!-- -----------font--------------- -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,100;0,500;1,400&display=swap" rel="stylesheet">
 
-    <title>sigle book</title>
+    <title>contact us</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark mb-5 ">
+        <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html">ibraheem library</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">info</h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./allbook.html" target="_blank">All books </a>
-                    </li>
-                  </ul>
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./singelbook.html" target="_blank">single books </a>
-                    </li>
-                  </ul>
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./contact us.html" target="_blank">contact us </a>
-                    </li>
-                  </ul>
-                  <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-success" type="submit">Search</button>
-                  </form>
-                </div>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </nav>
     </header>
-    <main>
-        <div class="card";">
-            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="./img/harry potter.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">harry potter</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <h3>14$</h3>
-                      <a href="#" class="btn btn-primary">buy the book</a>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                  </div>
-                </div>
+    <main class="mt-5" id="header-cuntus">
+        <div class="container" id="header-condiv">
+        <div class="mb-3 ">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control h-50" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control h-50" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
     </main>
     <footer>
         <ul class="nav justify-content-center mt-5 mb-5">
