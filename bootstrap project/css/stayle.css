@@ -25,8 +25,13 @@ header{
     background-color: rgba(249, 251, 252, 0.781);
     height: 20rem;
 }
-#bookrange{
+.bookrange{
     background-color: rgba(124, 122, 122, 0.486);
+}
+#book-buy{
+    background-color: rgba(161, 159, 159, 0.719);
+    height: 100rem;
+    width: 90%;
 }
 /* -------------countacUs--------------------- */
 #header-cuntus{
