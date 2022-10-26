@@ -63,7 +63,28 @@
     </header>
 
     <!-- -------------------------------------------------------------------------------------------- -->
-        <main class="mt-5">
+        <main class="row m-5">
+          <section class="col-3 bookrange">
+            <div class="  pt-5 text-center mt-5">
+                <h1>All books <i class="fa-solid fa-book"></i></h1>
+              </div>
+            <div class="container-fluid w-75 mt-5 mb-5">
+              <div class="container-fluid mt-5 mb-5 border border-dark">
+                <label for="customRange1" class="form-label fs-2">price range</label>
+                <input type="range" class="form-range" id="customRange1">
+              </div>
+              <div class="input-group">
+                <input type="search" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                <span class="input-group-text">$</span>
+                <span class="input-group-text">0.00</span>
+              </div>
+          </div>
+          <div class="container-fluid d-flex justify-content-between" id="book-buy">
+            <h2 class="fs-1 mt-3">Purchase List</h2>
+            <i class="fa-solid fa-cart-arrow-down fs-1 mt-4"></i>
+          </div>
+        </section>
+            <section class="col-9 mt-5">
             <div class="card";">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
@@ -874,6 +895,7 @@
                       </div>
                     </div>
                   </div>
+                </section>
           </main>
           <footer>
             <ul class="nav justify-content-center mt-5 mb-5">
